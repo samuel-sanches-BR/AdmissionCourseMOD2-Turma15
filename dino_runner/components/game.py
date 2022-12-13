@@ -40,7 +40,7 @@ class Game:
         self.screen.fill((255, 255, 255)) #Também aceita código hexadecimal "#FFFFFF"
         self.draw_background()
         self.player.draw(self.screen)
-        pygame.display.update()
+        pygame.display.update()  
         pygame.display.flip()
 
     def draw_background(self):
