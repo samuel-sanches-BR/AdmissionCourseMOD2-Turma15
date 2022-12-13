@@ -37,7 +37,7 @@ class Game:
 
     def draw(self):
         self.clock.tick(FPS)
-        self.screen.fill((255, 255, 255)) #Também aceita código hexadecimal "#FFFFFF"
+        self.screen.fill((128,128,128)) #Também aceita código hexadecimal "#FFFFFF"
         self.draw_background()
         self.player.draw(self.screen)
         pygame.display.update()
